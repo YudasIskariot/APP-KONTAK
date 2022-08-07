@@ -1,0 +1,20 @@
+Cara mengggunakan aplikasi :
+1. Command add : untuk menambah kontak baru
+code at terminal : node app add --nama="namamu" --email="emailmu" --nomor="nomorHPmu" --jenisKelamin="
+*catatan :
+- Nama harus diisi dan tidak boleh sama
+- Email tidak harus diisi dan kalau diisi harus benar cara menuliskan format email
+- Nomor harus diisi dengan format nomor HP Indonesia
+
+2. Command list : untuk menampilkan daftar kontak
+code at terminal : node app list
+
+3. Command detail : untuk menampilkan data kontak berdasarkan nama
+code at terminal : node app detail --nama="nama yang ingin ditampilkan"
+*catatan :
+nama harus ada di file kontak.json, jika tidak maka akan keluar eror
+
+4. Command delete : untuk menghapus kontak berdasarkan nama
+code at terminal : node app delete --nama="nama yang ingin dihapus"
+*catatan :
+nama harus ada di file kontak.json, jika tidak maka akan keluar eror
